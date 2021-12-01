@@ -1,4 +1,6 @@
 import React from 'react'
+
+import CartWidget from '../CartWidget/CartWidget';
 import {AiOutlineShoppingCart} from 'react-icons/ai';
 
 import './NavBar.styles.css';
@@ -18,12 +20,7 @@ const NavBar = () => {
                     <li className="menu-item"><a href="#">Ofertas</a></li>
                     <li className="menu-item"><a href="#">Sobre Nosotros</a></li>
                 </ul>
-                <div className="shoppingCart-container">
-                    <AiOutlineShoppingCart className="shopping-cart"/>
-                    <div className="shopping-cart-items">
-                        <span>0</span>
-                    </div>
-                </div>
+                <CartWidget />
             </div>
         </div>
     )

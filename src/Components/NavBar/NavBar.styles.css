@@ -58,7 +58,7 @@
 
 /* Carrito de compra */
 
-.shoppingCart-container {
+/* .shoppingCart-container {
     display: flex;
     align-items: center;
     width: 5rem;
@@ -70,26 +70,26 @@
 .shopping-cart {
     font-size: 3rem;
     position: relative;
-}
+} */
 
 .shopping-cart-items {
     width: 2rem;
     height: 2rem;
     margin-left: 2rem;
     margin-top: -2.5rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background-color: rgb(252, 69, 69);
-    position: absolute;
+    position: absolute; */
 }
 
-.shopping-cart-items span {
+/* .shopping-cart-items span {
     color: white;
     font-weight: 700;
     font-size: 1.5rem;
-}
+} */
 
 @media(max-width: 1024px) {
     .menu-container {
