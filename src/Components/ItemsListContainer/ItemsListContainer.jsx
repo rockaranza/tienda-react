@@ -23,9 +23,7 @@ const ItemsListContainer = props => {
                 <h2>Cargando...</h2>
                 :
                 <ItemList products={products}/>
-
             }
-            {/* <ItemCount iniStock={1} maxStock={10}/> */}
         </div>
     )
 }
